@@ -10,7 +10,7 @@ m <- NULL
                 m <<- NULL
         }
         get <- function() x
-        setinverse <- function(inverse) m <<- inverse
+        setinverse <- function(Solve) m <<- Solve
         getinverse <- function() m
         list(set = set, get = get,
              setinverse = setinverse,
